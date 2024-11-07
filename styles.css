@@ -137,16 +137,30 @@ span {
 
 
 /**** background section *****/
+.background-container {
+
+    background-size: cover;
+    height: 350px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background-image 1s ease;
+}
+
 .background-section{
-    background-image: url(bgimage1.jpg);
     background-size: cover;
     height: 350px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .background-mssg{
     background-color: white;
     color: black;
